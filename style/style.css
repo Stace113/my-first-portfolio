@@ -17,9 +17,8 @@
         font-size: 20px;
     }
 
-    .container-box {
-        display: block;
-        margin: auto 0;
+    .box {
+        text-align: center;
     }
 
     .about-paragraphs {
