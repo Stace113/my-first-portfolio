@@ -2,6 +2,7 @@
     --primary-color: #6c63ff;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --align-middle: center;
 }
 
 body {
@@ -12,16 +13,19 @@ body {
 h1,
 h2,
 h3 {
-    text-align: center;
+    text-align: var(--align-middle);
+
     margin: 0;
 }
 
 h1 {
     font-size: 96px;
+    text-align: var(--align-middle);
 }
 
 h2 {
     font-size: 48px;
+    text-align: var(--align-middle);
 }
 
 h3 {
@@ -35,7 +39,7 @@ p {
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
-    text-align: center;
+    text-align: var(--align-middle);
 }
 
 .navbar {
