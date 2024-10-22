@@ -9,20 +9,30 @@
         display: none;
     }
 
-    h1 {
-        font-size: small;
-    }
-
-    h2 {
-        font-size: 20px;
+    .image {
+        margin-top: 25px;
     }
 
     .box {
-        text-align: center;
+        width: 10px;
     }
 
     .about-paragraphs {
-        margin: 10px;
+        margin: 30px 50px;
+    }
+
+    .text {
+        margin: 0 25%;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .more {
+        display: none;
+    }
+
+    .container {
+        margin: 18%;
     }
 }
 
@@ -112,7 +122,7 @@ p {
 
 .about-paragraphs {
     display: flex;
-    margin: 30px 200px;
+    margin: 30px 75px;
 }
 
 .about-paragraphs p {
